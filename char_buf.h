@@ -3,7 +3,7 @@
 
 #include "stdlib.h"
 
-#ifndef __cplusplus
+#ifdef __cplusplus
 extern "C" {
 #endif
 
@@ -21,7 +21,7 @@ void char_buf_append(char_buf cbuf, unsigned char * data, unsigned char data_len
 
 //void loc2payload(char_buf signal, unsigned char * payload, int start);
 
-#ifndef __cplusplus
+#ifdef __cplusplus
 }
 #endif
 

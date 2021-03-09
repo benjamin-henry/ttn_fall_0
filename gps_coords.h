@@ -3,7 +3,7 @@
 
 #include "stdlib.h"
 
-#ifndef __cplusplus
+#ifdef __cplusplus
 extern "C" {
 #endif
 
@@ -19,7 +19,7 @@ gps_coords gps_coords_init();
 void set_gps_coords(gps_coords coords, float latitude, float longitude);
 void coords_to_bytes(gps_coords coords);
 
-#ifndef __cplusplus
+#ifdef __cplusplus
 }
 #endif
 

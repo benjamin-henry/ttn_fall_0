@@ -3,7 +3,7 @@
 
 #include "stdlib.h"
 
-#ifndef __cplusplus
+#ifdef __cplusplus
 extern "C" {
 #endif
 
@@ -12,7 +12,7 @@ const char *appKey = "00000000000000000000000000000000";
 const char *userUuid= "42000000000000042000000000000042";
 
 
-#ifndef __cplusplus
+#ifdef __cplusplus
 }
 #endif
 

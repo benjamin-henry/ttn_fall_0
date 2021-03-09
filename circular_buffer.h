@@ -3,7 +3,7 @@
 
 #include "stdlib.h"
 
-#ifndef __cplusplus
+#ifdef __cplusplus
 extern "C" {
 #endif
 
@@ -51,7 +51,7 @@ void advance_vpointer(cbuf_handle_t cbuf);
 void retreat_vpointer(cbuf_handle_t cbuf);
 void decrease_vtail(cbuf_handle_t cbuf);
 
-#ifndef __cplusplus
+#ifdef __cplusplus
 }
 #endif
 
